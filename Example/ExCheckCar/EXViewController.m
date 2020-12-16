@@ -7,6 +7,9 @@
 //
 
 #import "EXViewController.h"
+#import "EXTestObj.h"
+
+#import <ExCheckCar/ExObj.h>
 
 @interface EXViewController ()
 
@@ -18,6 +21,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    EXTestObj * obj = [EXTestObj new];
+    
+}
+- (IBAction)action:(UIButton *)sender {
+    [EXTestObj print:@"aaa"];
+    [ExObj print:@"bbbb"];
+    NSString * url = @"http://sapi.jdy520.com/api/2.0/catalog/xueban/book/mulus/791";
+    [ExObj getWithUrl:url para:nil];
 }
 
 - (void)didReceiveMemoryWarning

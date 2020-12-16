@@ -1,0 +1,6 @@
+framework module ExCheckCar {
+  umbrella header "ExCheckCar-umbrella.h"
+
+  export *
+  module * { export * }
+}

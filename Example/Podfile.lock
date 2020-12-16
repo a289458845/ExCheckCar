@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ExCheckCar (0.1.0):
+    - AFNetworking
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - ExCheckCar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+
+EXTERNAL SOURCES:
+  ExCheckCar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ExCheckCar: 3b350e966d1cbd92f2d61eea015f85d4e7bf92e5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: dee121063733ec80a15ca8c485f90567e555b219
+
+COCOAPODS: 1.9.3
